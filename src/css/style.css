@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+    background-color: hsl(225, 100%, 94%);
+}
+.container .info {
+    max-width: 450px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #c2c2c2;
+    background-color: #ffffff;
+}
+.info img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.info .conteudo {
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 30px 20px;
+}
+.info .conteudo h1 {
+    font-size: 25px;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+.info .conteudo p {
+    color: hsl(224, 23%, 55%);
+    width: 300px;
+    margin: 0 auto 15px;
+}
+.info .conteudo .pagamento {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    width: 300px;
+    margin: 0 auto;
+}
+.info .conteudo .pagamento img {
+    margin-right: 15px;
+}
+.info .conteudo .pagamento ul {
+    color: hsl(224, 23%, 55%);
+}
+.info .conteudo .pagamento ul li:first-child {
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+.info .conteudo .pagamento a {
+    margin-left: 50px;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    transition: 0.3s;
+}
+.info .conteudo .pagamento a:hover {
+    text-decoration: none;
+    color: hsl(245, 83%, 68%);
+}
+.info .conteudo .proximo {
+    display: flex;
+    flex-direction: column;
+}
+.info .conteudo .proximo a {
+    color: hsl(224, 23%, 55%);
+    margin-top: 30px;
+    font-weight: 700;
+    transition: 0.3s;
+    width: auto;
+    margin: 20px auto 0;
+}
+.info .conteudo .proximo a:hover {
+    color: hsl(223, 47%, 23%);
+}
+.info .conteudo .proximo a:first-child {
+    background-color: hsl(245, 75%, 52%);
+    color: #ffffff;
+    padding: 15px 20px;
+    width: 325px;
+    margin: 30px auto 0;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.info .conteudo .proximo a:first-child:hover {
+    background-color: hsl(245, 83%, 68%);
+}
