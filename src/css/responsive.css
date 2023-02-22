@@ -1,0 +1,29 @@
+@media(max-width:425px){
+    .container {
+        background-image: url(../images/pattern-background-mobile.svg);
+    }
+    .container .info {
+        max-width: 320px;
+    }
+    .info img {
+        max-width: 320px;
+    }
+    .info .conteudo {
+        padding: 15px;
+    }
+    .info .conteudo p {
+        width: auto;
+    }
+    .info .conteudo .pagamento {
+        padding: 15px 20px;
+    }
+    .info .conteudo .pagamento img {
+        margin-right: 15px;
+    }
+    .info .conteudo .pagamento a {
+        margin-left: 20px;
+    }
+    .info .conteudo .proximo .proceed {
+        width: 250px;
+    }
+}
