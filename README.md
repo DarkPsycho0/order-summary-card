@@ -11,7 +11,7 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot 📷
-<img src="./src/github/animation.gif">
+<img src="./animation.gif">
 
 ### link 🔗
 - Live Site URL: (https://lkiryu.github.io/order-summary-card/)
