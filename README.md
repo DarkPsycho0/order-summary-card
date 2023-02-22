@@ -11,7 +11,11 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot 📷
-<img src="./animation.gif">
+#### Without hover
+<img src="./src/github/no-hover.png">
+
+#### With hover
+<img src="./src/github/with-hover.png">
 
 ### link 🔗
 - Live Site URL: (https://lkiryu.github.io/order-summary-card/)
